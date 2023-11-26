@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 50px auto;
+    width: 50%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+p {
+    font-size: 50px;
+}
+
+p i,
+span {
+    color: darkcyan;
+}
+
+#text1,
+#text2,
+#text3 {
+    height: 50px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    gap: 30px;
+}
+
+button {
+    height: 50px;
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    font-size: 24px;
+}
+
+main {
+    margin: 20px auto;
+    width: 50%;
+}
+table{
+    width: 100%;
+    font-size: 20px;
+    border-collapse: collapse;
+
+}
+th{
+    background-color: whitesmoke;
+}
+th, td{
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
